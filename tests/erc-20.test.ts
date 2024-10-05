@@ -9,8 +9,8 @@ import {
 import { Address, BigInt } from "@graphprotocol/graph-ts"
 import { Approval } from "../generated/schema"
 import { Approval as ApprovalEvent } from "../generated/SimpleToken/SimpleToken"
-import { handleApproval } from "../src/simple-token"
-import { createApprovalEvent } from "./simple-token-utils"
+import { handleApproval } from "../src/erc-20"
+import { createApprovalEvent } from "./erc-20-utils"
 
 // Tests structure (matchstick-as >=0.5.0)
 // https://thegraph.com/docs/en/developer/matchstick/#tests-structure-0-5-0
